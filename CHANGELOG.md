@@ -1,5 +1,51 @@
 # Changelog
 
+## [3.9.3](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.9.3) (2026-08-20)
+
+[Full Changelog](https://github.com/TheHive-Project/Cortex-Analyzers/compare/3.9.2...3.9.3)
+
+**Merged pull requests:**
+
+- Analyzer dependency updates [\#1492](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1492) ([nusantara-self](https://github.com/nusantara-self))
+- CI Dependencies update [\#1489](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1489) ([nusantara-self](https://github.com/nusantara-self))
+
+## [3.9.2](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.9.2) (2026-08-13)
+
+[Full Changelog](https://github.com/TheHive-Project/Cortex-Analyzers/compare/3.9.1...3.9.2)
+
+**Closed issues:**
+
+- \[FR\] Clarification based on recent changes [\#1486](https://github.com/TheHive-Project/Cortex-Analyzers/issues/1486)
+- \[FR\] ClusterHawk explanations for predictions [\#1476](https://github.com/TheHive-Project/Cortex-Analyzers/issues/1476)
+
+**Merged pull requests:**
+
+- LdapQuery 3.1 - Add configurable TLS security level [\#1488](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1488) ([nusantara-self](https://github.com/nusantara-self))
+- Vendor folder renaming / improvements [\#1487](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1487) ([nusantara-self](https://github.com/nusantara-self))
+- ClusterHawk - Clarification [\#1485](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1485) ([marvinuku](https://github.com/marvinuku))
+
+## [3.9.1](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.9.1) (2026-08-06)
+
+[Full Changelog](https://github.com/TheHive-Project/Cortex-Analyzers/compare/3.9.0...3.9.1)
+
+**Merged pull requests:**
+
+- FileInfo - Update Dockerfile [\#1483](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1483) ([nusantara-self](https://github.com/nusantara-self))
+- MSEntraID responders - Fix missing dataType check & update datetime usage [\#1482](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1482) ([3lina](https://github.com/3lina))
+- MSEntraID analyzers - Bug fix & 3 new analyzers \(directory roles, sign-ins by IP and risky user\) [\#1481](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1481) ([3lina](https://github.com/3lina))
+- Initial commit - MSDefenderForEndpoint analyzers v1 \(device lookup & hash reputation\) [\#1480](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1480) ([3lina](https://github.com/3lina))
+- MSDefenderForEndpoint responder - Rename, OAuth v2.0 migration, bug fixes & new action [\#1479](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1479) ([3lina](https://github.com/3lina))
+
+## [3.9.0](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.9.0) (2026-07-28)
+
+[Full Changelog](https://github.com/TheHive-Project/Cortex-Analyzers/compare/3.8.9...3.9.0)
+
+**Merged pull requests:**
+
+- MSExchangeOnline - Inbox rules integration [\#1478](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1478) ([nusantara-self](https://github.com/nusantara-self))
+- Prediction explanations [\#1477](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1477) ([marvinuku](https://github.com/marvinuku))
+- Add PDFPreview Analyzer [\#1473](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1473) ([nusantara-self](https://github.com/nusantara-self))
+
 ## [3.8.9](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.8.9) (2026-07-14)
 
 [Full Changelog](https://github.com/TheHive-Project/Cortex-Analyzers/compare/3.8.8...3.8.9)
@@ -10,6 +56,12 @@
 - \[Bug\] Urlscan.io\_Scan analyzer doesn't work anymore [\#1468](https://github.com/TheHive-Project/Cortex-Analyzers/issues/1468)
 - \[FR\] ClusterHawk IPv6 support [\#1459](https://github.com/TheHive-Project/Cortex-Analyzers/issues/1459)
 - \[Bug\] Elasticsearch analyzer "keys" field is required but should not be [\#1291](https://github.com/TheHive-Project/Cortex-Analyzers/issues/1291)
+
+**Merged pull requests:**
+
+- Urlscan.io - Fix analyzers & bump to 0.2.0 [\#1472](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1472) ([nusantara-self](https://github.com/nusantara-self))
+- Update GreyNoise analyzer template for version 3.2 [\#1470](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1470) ([kiaora17](https://github.com/kiaora17))
+- Fix Elasticsearch analyzer TypeError when optional configurations are… [\#1455](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1455) ([jeffrey-theog06](https://github.com/jeffrey-theog06))
 
 ## [3.8.8](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.8.8) (2026-06-29)
 
@@ -87,8 +139,8 @@
 **Merged pull requests:**
 
 - Cortex XDR - new responder flavors [\#1446](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1446) ([nusantara-self](https://github.com/nusantara-self))
-- Restore original LdapQuery Dockerfile [\#1445](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1445) ([nusantara-self](https://github.com/nusantara-self))
 - Add Dockerfile with openssl [\#1444](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1444) ([nusantara-self](https://github.com/nusantara-self))
+- Restore original LdapQuery Dockerfile [\#1445](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1445) ([nusantara-self](https://github.com/nusantara-self))
 
 ## [3.8.0](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.8.0) (2026-04-06)
 
@@ -96,9 +148,9 @@
 
 **Merged pull requests:**
 
+- GHA - SHA pinning [\#1439](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1439) ([nusantara-self](https://github.com/nusantara-self))
 - Checkpoint Harmony Email & Collaboration analyzers [\#1442](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1442) ([nusantara-self](https://github.com/nusantara-self))
 - OVH Cloud Analyzers & Responders [\#1441](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1441) ([kiaora17](https://github.com/kiaora17))
-- GHA - SHA pinning [\#1439](https://github.com/TheHive-Project/Cortex-Analyzers/pull/1439) ([nusantara-self](https://github.com/nusantara-self))
 
 ## [3.7.13](https://github.com/TheHive-Project/Cortex-Analyzers/tree/3.7.13) (2026-03-25)
 
@@ -1697,6 +1749,7 @@
 
 - added custom Dns sinkholed ip [\#482](https://github.com/TheHive-Project/Cortex-Analyzers/pull/482) ([garanews](https://github.com/garanews))
 - remove extra slash [\#488](https://github.com/TheHive-Project/Cortex-Analyzers/pull/488) ([garanews](https://github.com/garanews))
+- EmlParser - Fixed headers and displayTo  [\#486](https://github.com/TheHive-Project/Cortex-Analyzers/pull/486) ([mgabriel-silva](https://github.com/mgabriel-silva))
 - yeti api key [\#478](https://github.com/TheHive-Project/Cortex-Analyzers/pull/478) ([siisar](https://github.com/siisar))
 - Possibility to use a Yeti apikey. [\#477](https://github.com/TheHive-Project/Cortex-Analyzers/pull/477) ([siisar](https://github.com/siisar))
 - Utility to make running an Analyzer locally easier, helpful in development [\#471](https://github.com/TheHive-Project/Cortex-Analyzers/pull/471) ([ndejong](https://github.com/ndejong))
@@ -2302,6 +2355,7 @@
 
 - fixed line break in WOT requirements.txt [\#132](https://github.com/TheHive-Project/Cortex-Analyzers/pull/132) ([peasead](https://github.com/peasead))
 - Revert "Updated VT links in Long report" [\#110](https://github.com/TheHive-Project/Cortex-Analyzers/pull/110) ([saadkadhi](https://github.com/saadkadhi))
+- Updated VT links in Long report [\#98](https://github.com/TheHive-Project/Cortex-Analyzers/pull/98) ([mthlvt](https://github.com/mthlvt))
 
 ## [1.6.3](https://github.com/TheHive-Project/Cortex-Analyzers/tree/1.6.3) (2017-09-10)
 
